@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 20px 20px;
+    font-size: 18px;
+    background-color: #2cc156;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  
+  }
+  button:hover{
+    background-color: #132a21;
+  }
+
+  #grad {
+    background-image: linear-gradient(to right rgb(14, 14, 19),rgb(13, 13, 59), rgb(18, 18, 100), rgb(46, 46, 161),rgb(98, 98, 212),rgb(142, 142, 206));
+  }
+  
+  
